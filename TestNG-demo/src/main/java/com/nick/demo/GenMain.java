@@ -16,6 +16,7 @@ import org.mybatis.generator.internal.DefaultShellCallback;
 public class GenMain {
 
 	public static void main(String[] args) {
+	//warnings define
         List<String> warnings = new ArrayList<String>();
         boolean overwrite = true;
         String genCfg = "/generatorConfig.xml";
